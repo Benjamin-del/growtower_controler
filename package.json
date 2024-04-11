@@ -4,5 +4,16 @@
     "express": "^4.19.2",
     "http": "^0.0.1-security",
     "ws": "^8.16.0"
-  }
+  },
+  "name": "growtower_controler",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "run": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
