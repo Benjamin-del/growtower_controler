@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .status {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 5px;
+    gap: 10px;
+    border-radius: 5px;
+  }
+  
+  .control_panel {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+  }
+  
+  .control_item {
+    background: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .water.on {
+      background: #5858c3;
+      color: white;
+  }
+  
+  .light.on {
+    background: #FFC300;
+    color: white;
+  }
+
+  .light.off {
+    background: grey;
+    color: white;
+  }
+  .water.off {
+    background: grey;
+    color: white;
+  }
+
+  .status p {
+      margin: 0px;
+  }
+  
+  .status.off {
+      background: red;
+      color: white;
+  }
